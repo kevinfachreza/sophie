@@ -25,6 +25,7 @@ public class moveController : MonoBehaviour {
 		RaycastHit hit;
 		Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 		if (Physics.Raycast (ray, out hit)) {
+			/*
 			if (hit.collider.tag == "Lamp") {
 				print (hit.distance);
 				if (hit.distance < 1.5) {
@@ -32,6 +33,13 @@ public class moveController : MonoBehaviour {
 					hit.transform.GetComponent<LampController> ().AllowIncreaseValue ();
 				} else {
 					hit.transform.GetComponent<LampController> ().DisallowIncreaseValue ();
+				}
+			}*/
+			if (hit.collider.tag == "PowerPanel") {
+				if (hit.distance < 1.5) {
+					hit.transform.GetComponent<PowerPanelController> ().AllowIncreaseValue ();
+				} else {
+					hit.transform.GetComponent<PowerPanelController> ().DisallowIncreaseValue ();
 				}
 			}
 		}

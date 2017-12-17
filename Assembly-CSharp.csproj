@@ -52,11 +52,13 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\_assets\Health\Scripts\healthController.cs" />
+     <Compile Include="Assets\_assets\Lamp\Scripts\BigLampController.cs" />
      <Compile Include="Assets\_assets\Lamp\Scripts\LampController.cs" />
      <Compile Include="Assets\_assets\Lamp\Scripts\LightController.cs" />
      <Compile Include="Assets\_assets\onClickButton.cs" />
      <Compile Include="Assets\_assets\Player\Scripts\moveController.cs" />
      <Compile Include="Assets\_assets\Player\Scripts\raycastController.cs" />
+     <Compile Include="Assets\_assets\PowerPanel\PowerPanelController.cs" />
      <Compile Include="Assets\GoogleVR\Demos\Scripts\DemoInputManager.cs" />
      <Compile Include="Assets\GoogleVR\Demos\Scripts\DemoSceneManager.cs" />
      <Compile Include="Assets\GoogleVR\Demos\Scripts\GVRDemo\GVRDemoManager.cs" />
