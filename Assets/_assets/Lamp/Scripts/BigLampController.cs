@@ -12,10 +12,11 @@ public class BigLampController : MonoBehaviour {
 	private float energy2;
 	private float energy3;
 	public float intensityMax;
-
+	private AudioSource soundChargingUp;
 
 	void Start () {
 		lt = GetComponent<Light> ();
+		soundChargingUp = GetComponent<AudioSource> ();
 	}
 
 	// Update is called once per frame

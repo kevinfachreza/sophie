@@ -13,6 +13,10 @@ public class PowerPanelController : MonoBehaviour {
 	public Image health;
 
 
+	private AudioSource soundChargingUp;
+	private bool toggleSoundChargingUp;
+	private bool isSoundPlay;
+
 	// Use this for initialization
 	void Start () {
 		energy = 1.00f;
@@ -20,6 +24,10 @@ public class PowerPanelController : MonoBehaviour {
 		increaseValue = 0.001f;
 		allowDecrease = true;
 		allowIncrease = false;
+
+		soundChargingUp = GetComponent<AudioSource> ();
+		toggleSoundChargingUp = false;
+		isSoundPlay = false;
 
 
 	}
@@ -41,16 +49,32 @@ public class PowerPanelController : MonoBehaviour {
 		health.fillAmount = energy;
 		allowIncrease = false;
 
+		if (toggleSoundChargingUp) {
+			if (!isSoundPlay) {
+				soundChargingUp.Play ();
+			}
+		} else {
+			soundChargingUp.Stop ();
+			isSoundPlay = false;
+			toggleSoundChargingUp = false;
+		}
+
+
+		isSoundPlay = toggleSoundChargingUp;
+
+
 	}
 
 	public void AllowIncreaseValue()
 	{
 		allowIncrease = true;
+		toggleSoundChargingUp = true;
 	}
 
 	public void DisallowIncreaseValue()
 	{
 		allowIncrease = false;
+		toggleSoundChargingUp = false;
 	}
 
 	public float getEnergy()
