@@ -105,10 +105,10 @@ MonoBehaviour:
     y: 30
     width: 1366
     height: 635
-  m_MinSize: {x: 679, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
+  m_MinSize: {x: 681, y: 492}
+  m_MaxSize: {x: 14004, y: 14042}
   vertical: 1
-  controlID: 6008
+  controlID: 63
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -129,10 +129,10 @@ MonoBehaviour:
     y: 0
     width: 1366
     height: 635
-  m_MinSize: {x: 679, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
+  m_MinSize: {x: 681, y: 492}
+  m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 6009
+  controlID: 64
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -156,7 +156,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 6010
+  controlID: 105
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -180,7 +180,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 221}
   m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
-  controlID: 6011
+  controlID: 80
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -277,8 +277,8 @@ MonoBehaviour:
     y: 0
     width: 340
     height: 635
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 71}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -389,20 +389,20 @@ MonoBehaviour:
     height: 336
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: e8f6ffff
-    m_LastClickedID: -2328
-    m_ExpandedIDs: bad2f5ff4037f6ff2c7df7ff7a46f8ffd0f6ffffa6fbffff00000000942e00002a2f0000762f00000431000004320000e4330000
+    m_SelectedIDs: 54310000
+    m_LastClickedID: 12628
+    m_ExpandedIDs: a8f5ffffa6fbffff00000000ba330000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: RoomF
-      m_OriginalName: RoomF
+      m_Name: PowerPanelB
+      m_OriginalName: PowerPanelB
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 12326
+      m_UserData: 12470
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -441,14 +441,14 @@ MonoBehaviour:
     width: 681
     height: 336
   m_SceneLighting: 1
-  lastFramingTime: 5829.615835504736
+  lastFramingTime: 18308.997642386596
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -1.61, y: 4.85, z: -3.18}
+    m_Target: {x: -0.38116503, y: 5.1720285, z: 26.318298}
     speed: 2
-    m_Value: {x: -1.61, y: 4.85, z: -3.18}
+    m_Value: {x: -0.38116503, y: 5.1720285, z: 26.318298}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -471,13 +471,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.24835081, y: -0.674804, z: 0.26003852, w: -0.6444699}
+    m_Target: {x: -0.102937244, y: 0.52045035, z: 0.06338044, w: 0.84529173}
     speed: 2
-    m_Value: {x: -0.24835081, y: -0.674804, z: 0.26003852, w: -0.6444699}
+    m_Value: {x: -0.10293725, y: 0.5204504, z: 0.06338045, w: 0.8452918}
   m_Size:
-    m_Target: 22
+    m_Target: 8.136457
     speed: 2
-    m_Value: 22
+    m_Value: 8.136457
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -568,7 +568,7 @@ MonoBehaviour:
     width: 1024
     height: 257
   m_SearchFilter:
-    m_NameFilter: 
+    m_NameFilter: mov
     m_ClassNames: []
     m_AssetLabels: []
     m_AssetBundleNames: []
@@ -579,19 +579,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Horror Hospital Pack/Prefabs
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Horror Hospital Pack/Prefabs
+  - Assets
   m_LastFoldersGridSize: 16
   m_LastProjectPath: E:\Kuliah\Semester7\ARVR\Projects\VR-Sophie
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 192}
-    m_SelectedIDs: 882d0000
-    m_LastClickedID: 11656
-    m_ExpandedIDs: 000000002e2900007e29000084290000062a00003e2b0000de2b0000fc2b0000062c0000162c00009e2c0000ac2d00001a3600001c3600001e36000020360000223600003ab6000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 00000000322900008229000088290000ee2900000c2a0000e42a0000462b0000e62b0000042c00000e2c00001e2c0000422c0000a62c0000b42d0000583700005a3700005c3700005e3700006037000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -619,7 +619,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000002e2900007e29000084290000062a00003e2b0000de2b0000fc2b0000062c0000162c00009e2c0000ac2d00001a3600001c3600001e36000020360000223600003ab6000000ca9a3bffffff7f
+    m_ExpandedIDs: 000000003229000082290000882900000c2a0000e42a0000462b0000e62b0000042c00000e2c00001e2c0000a62c0000b42d0000583700005a3700005c3700005e37000060370000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -646,22 +646,22 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c623000020070000dc2c0000fa2c00004c3500001a360000da33000000000000de290000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: ClockController
+      m_OriginalName: ClockController
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 145104
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 11}
     m_CreateAssetUtility:
@@ -703,7 +703,7 @@ MonoBehaviour:
   m_ScrollPosition: {x: 0, y: 0}
   m_InspectorMode: 0
   m_PreviewResizer:
-    m_CachedPref: 160
+    m_CachedPref: 100
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
