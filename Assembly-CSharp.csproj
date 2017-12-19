@@ -60,6 +60,7 @@
      <Compile Include="Assets\_assets\Player\Scripts\raycastController.cs" />
      <Compile Include="Assets\_assets\PowerPanel\ChargingUpSoundController.cs" />
      <Compile Include="Assets\_assets\PowerPanel\PowerPanelController.cs" />
+     <Compile Include="Assets\ClockController.cs" />
      <Compile Include="Assets\GoogleVR\Demos\Scripts\DemoInputManager.cs" />
      <Compile Include="Assets\GoogleVR\Demos\Scripts\DemoSceneManager.cs" />
      <Compile Include="Assets\GoogleVR\Demos\Scripts\GVRDemo\GVRDemoManager.cs" />
